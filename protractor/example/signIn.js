@@ -4,9 +4,9 @@ describe('angularjs homepage', function() {
 	
 	browser.waitForAngularEnabled(false);
 	
-	// element(by.xpath('//ion-input[@name="email"]/input')).sendKeys('Niwesboy20@gmail.com');
-	element(by.xpath('//ion-input[@name="email"]/input')).sendKeys('Niwesboy21@gmail.com');
-	element(by.xpath('//ion-input[@name="password"]/input')).sendKeys('123456');
+	// element(by.xpath('//ion-input[@name="email"]/input')).sendKeys('');
+	element(by.xpath('//ion-input[@name="email"]/input')).sendKeys('');
+	element(by.xpath('//ion-input[@name="password"]/input')).sendKeys('');
 	element(by.xpath('//*[@class="disable-hover button button-md button-default button-default-md button-block button-block-md"]/span')).click();
 	browser.sleep(3500);
 
